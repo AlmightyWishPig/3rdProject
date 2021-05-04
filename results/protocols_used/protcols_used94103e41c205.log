@@ -1,0 +1,401 @@
+Destinations contacted by 94:10:3e:41:c2:05: 
+255.255.255.255::144
+10.10.10.1::513
+129.132.2.21::57
+130.149.17.8::57
+192.53.103.104::57
+50.17.221.66::84
+64.210.203.208::4
+54.193.117.148::25
+23.23.111.129::43
+74.125.142.188::5
+50.19.119.163::5
+54.235.195.29::24
+224.0.0.22::40
+239.255.255.250::500
+104.154.46.102::23
+216.58.214.110::44
+50.16.203.253::111
+74.125.71.188::13
+52.1.101.255::4
+54.243.187.195::9
+31.13.92.10::15
+159.122.19.174::1
+54.243.146.41::93
+54.243.222.76::106
+50.19.247.85::30
+174.129.195.166::143
+184.72.236.164::184
+108.177.15.188::3
+54.225.140.113::97
+63.128.176.5::3
+50.17.195.105::4
+204.236.224.144::4
+64.233.184.188::4
+23.21.117.32::80
+23.21.226.117::28
+54.235.87.112::4
+74.125.140.188::4
+174.129.213.156::29
+23.21.138.13::109
+23.23.244.163::12
+173.194.219.188::7
+54.221.208.223::4
+184.73.254.250::31
+23.21.253.224::3
+64.233.183.188::5
+52.4.187.180::4
+54.215.132.112::12
+52.5.218.128::6
+52.5.245.33::9
+52.6.245.252::12
+23.21.60.181::139
+54.243.161.167::5
+52.22.228.131::12
+52.71.162.223::6
+52.72.119.158::6
+23.23.97.224::179
+52.72.158.12::12
+52.3.203.91::15
+23.23.244.247::54
+54.90.160.227::6
+52.22.149.137::4
+159.122.19.172::2
+159.122.19.160::2
+159.122.19.157::2
+159.122.19.150::2
+159.122.19.144::2
+159.122.19.209::1
+54.86.223.191::4
+75.101.153.17::12
+159.122.19.142::4
+159.122.19.145::4
+159.122.19.162::4
+159.122.19.178::4
+107.22.199.21::175
+52.205.3.64::8
+54.193.100.54::12
+173.194.65.188::4
+159.122.19.131::2
+159.122.19.204::2
+159.122.19.200::2
+159.122.19.196::2
+204.236.217.159::5
+159.122.19.195::2
+159.122.19.192::2
+159.122.19.186::2
+159.122.19.181::2
+159.122.19.180::2
+173.194.72.188::7
+52.72.201.217::6
+52.201.57.192::6
+52.8.166.136::14
+74.125.200.188::3
+172.217.18.14::23
+52.22.100.3::6
+174.129.209.146::4
+52.21.99.97::4
+52.22.115.100::6
+52.22.218.140::6
+54.235.111.253::81
+52.86.30.227::4
+172.217.19.100::1
+52.203.133.63::3
+107.21.214.151::89
+54.147.165.8::1
+52.205.156.39::3
+74.125.195.188::3
+54.225.150.170::37
+107.21.99.201::8
+122.248.252.67::5
+74.125.25.188::4
+54.163.54.51::6
+54.183.111.125::13
+50.18.213.194::13
+54.164.239.22::3
+184.73.179.203::10
+66.102.1.188::12
+54.224.75.105::6
+52.9.69.98::27
+174.129.254.197::12
+54.208.235.44::4
+23.23.236.208::21
+52.201.153.133::4
+50.19.255.135::31
+54.193.45.88::13
+173.194.195.188::4
+104.154.97.9::4
+52.70.0.77::4
+172.217.21.110::9
+95.100.180.232::4
+52.87.11.228::3
+54.221.123.254::6
+
+Protocols and IP address for 94:10:3e:41:c2:05: 
+IP: 10.10.10.1, Protocol: ICMP
+IP: 10.10.10.1, Protocol: UDP
+IP: 104.154.46.102, Protocol: TCP
+IP: 104.154.97.9, Protocol: TCP
+IP: 107.21.214.151, Protocol: TCP
+IP: 107.21.99.201, Protocol: TCP
+IP: 107.22.199.21, Protocol: TCP
+IP: 108.177.15.188, Protocol: TCP
+IP: 122.248.252.67, Protocol: UDP
+IP: 129.132.2.21, Protocol: UDP
+IP: 130.149.17.8, Protocol: UDP
+IP: 159.122.19.131, Protocol: TCP
+IP: 159.122.19.142, Protocol: TCP
+IP: 159.122.19.144, Protocol: TCP
+IP: 159.122.19.145, Protocol: TCP
+IP: 159.122.19.150, Protocol: TCP
+IP: 159.122.19.157, Protocol: TCP
+IP: 159.122.19.160, Protocol: TCP
+IP: 159.122.19.162, Protocol: TCP
+IP: 159.122.19.172, Protocol: TCP
+IP: 159.122.19.174, Protocol: TCP
+IP: 159.122.19.178, Protocol: TCP
+IP: 159.122.19.180, Protocol: TCP
+IP: 159.122.19.181, Protocol: TCP
+IP: 159.122.19.186, Protocol: TCP
+IP: 159.122.19.192, Protocol: TCP
+IP: 159.122.19.195, Protocol: TCP
+IP: 159.122.19.196, Protocol: TCP
+IP: 159.122.19.200, Protocol: TCP
+IP: 159.122.19.204, Protocol: TCP
+IP: 159.122.19.209, Protocol: TCP
+IP: 172.217.18.14, Protocol: TCP
+IP: 172.217.19.100, Protocol: TCP
+IP: 172.217.21.110, Protocol: TCP
+IP: 173.194.195.188, Protocol: TCP
+IP: 173.194.219.188, Protocol: TCP
+IP: 173.194.65.188, Protocol: TCP
+IP: 173.194.72.188, Protocol: TCP
+IP: 174.129.195.166, Protocol: TCP
+IP: 174.129.209.146, Protocol: TCP
+IP: 174.129.213.156, Protocol: TCP
+IP: 174.129.254.197, Protocol: TCP
+IP: 184.72.236.164, Protocol: TCP
+IP: 184.73.179.203, Protocol: TCP
+IP: 184.73.254.250, Protocol: TCP
+IP: 192.53.103.104, Protocol: UDP
+IP: 204.236.217.159, Protocol: TCP
+IP: 204.236.224.144, Protocol: TCP
+IP: 216.58.214.110, Protocol: TCP
+IP: 224.0.0.22, Protocol: IGMP
+IP: 23.21.117.32, Protocol: TCP
+IP: 23.21.138.13, Protocol: TCP
+IP: 23.21.226.117, Protocol: TCP
+IP: 23.21.253.224, Protocol: TCP
+IP: 23.21.60.181, Protocol: TCP
+IP: 23.23.111.129, Protocol: TCP
+IP: 23.23.236.208, Protocol: TCP
+IP: 23.23.244.163, Protocol: TCP
+IP: 23.23.244.247, Protocol: TCP
+IP: 23.23.97.224, Protocol: TCP
+IP: 239.255.255.250, Protocol: UDP
+IP: 255.255.255.255, Protocol: UDP
+IP: 31.13.92.10, Protocol: TCP
+IP: 50.16.203.253, Protocol: TCP
+IP: 50.17.195.105, Protocol: TCP
+IP: 50.17.221.66, Protocol: TCP
+IP: 50.18.213.194, Protocol: TCP
+IP: 50.19.119.163, Protocol: TCP
+IP: 50.19.247.85, Protocol: TCP
+IP: 50.19.255.135, Protocol: TCP
+IP: 52.1.101.255, Protocol: TCP
+IP: 52.201.153.133, Protocol: TCP
+IP: 52.201.57.192, Protocol: TCP
+IP: 52.203.133.63, Protocol: TCP
+IP: 52.205.156.39, Protocol: TCP
+IP: 52.205.3.64, Protocol: TCP
+IP: 52.21.99.97, Protocol: TCP
+IP: 52.22.100.3, Protocol: TCP
+IP: 52.22.115.100, Protocol: TCP
+IP: 52.22.149.137, Protocol: TCP
+IP: 52.22.218.140, Protocol: TCP
+IP: 52.22.228.131, Protocol: TCP
+IP: 52.3.203.91, Protocol: TCP
+IP: 52.4.187.180, Protocol: TCP
+IP: 52.5.218.128, Protocol: TCP
+IP: 52.5.245.33, Protocol: TCP
+IP: 52.6.245.252, Protocol: TCP
+IP: 52.70.0.77, Protocol: TCP
+IP: 52.71.162.223, Protocol: TCP
+IP: 52.72.119.158, Protocol: TCP
+IP: 52.72.158.12, Protocol: TCP
+IP: 52.72.201.217, Protocol: TCP
+IP: 52.8.166.136, Protocol: TCP
+IP: 52.86.30.227, Protocol: TCP
+IP: 52.87.11.228, Protocol: TCP
+IP: 52.9.69.98, Protocol: TCP
+IP: 54.147.165.8, Protocol: TCP
+IP: 54.163.54.51, Protocol: TCP
+IP: 54.164.239.22, Protocol: TCP
+IP: 54.183.111.125, Protocol: TCP
+IP: 54.193.100.54, Protocol: TCP
+IP: 54.193.117.148, Protocol: TCP
+IP: 54.193.45.88, Protocol: TCP
+IP: 54.208.235.44, Protocol: TCP
+IP: 54.215.132.112, Protocol: TCP
+IP: 54.221.123.254, Protocol: TCP
+IP: 54.221.208.223, Protocol: TCP
+IP: 54.224.75.105, Protocol: TCP
+IP: 54.225.140.113, Protocol: TCP
+IP: 54.225.150.170, Protocol: TCP
+IP: 54.235.111.253, Protocol: TCP
+IP: 54.235.195.29, Protocol: TCP
+IP: 54.235.87.112, Protocol: TCP
+IP: 54.243.146.41, Protocol: TCP
+IP: 54.243.161.167, Protocol: TCP
+IP: 54.243.187.195, Protocol: TCP
+IP: 54.243.222.76, Protocol: TCP
+IP: 54.86.223.191, Protocol: TCP
+IP: 54.90.160.227, Protocol: TCP
+IP: 63.128.176.5, Protocol: TCP
+IP: 64.210.203.208, Protocol: TCP
+IP: 64.233.183.188, Protocol: TCP
+IP: 64.233.184.188, Protocol: TCP
+IP: 66.102.1.188, Protocol: TCP
+IP: 74.125.140.188, Protocol: TCP
+IP: 74.125.142.188, Protocol: TCP
+IP: 74.125.195.188, Protocol: TCP
+IP: 74.125.200.188, Protocol: TCP
+IP: 74.125.25.188, Protocol: TCP
+IP: 74.125.71.188, Protocol: TCP
+IP: 75.101.153.17, Protocol: TCP
+IP: 95.100.180.232, Protocol: TCP
+
+UDP and TCP Protocols per IP: 
+IP: 10.10.10.1, Destination Port: 53, Port Designation: DNS 
+IP: 104.154.46.102, Destination Port: 443, Port Designation: HTTPS 
+IP: 104.154.97.9, Destination Port: 443, Port Designation: HTTPS 
+IP: 107.21.214.151, Destination Port: 8443, Port Designation: None 
+IP: 107.21.99.201, Destination Port: 443, Port Designation: HTTPS 
+IP: 107.22.199.21, Destination Port: 8443, Port Designation: None 
+IP: 108.177.15.188, Destination Port: 5228, Port Designation: None 
+IP: 122.248.252.67, Destination Port: 8766, Port Designation: None 
+IP: 129.132.2.21, Destination Port: 123, Port Designation: NTP 
+IP: 130.149.17.8, Destination Port: 123, Port Designation: NTP 
+IP: 159.122.19.131, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.142, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.144, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.145, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.150, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.157, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.160, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.162, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.172, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.174, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.178, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.180, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.181, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.186, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.192, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.195, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.196, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.200, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.204, Destination Port: 443, Port Designation: HTTPS 
+IP: 159.122.19.209, Destination Port: 443, Port Designation: HTTPS 
+IP: 172.217.18.14, Destination Port: 443, Port Designation: HTTPS 
+IP: 172.217.19.100, Destination Port: 443, Port Designation: HTTPS 
+IP: 172.217.21.110, Destination Port: 443, Port Designation: HTTPS 
+IP: 173.194.195.188, Destination Port: 5228, Port Designation: None 
+IP: 173.194.219.188, Destination Port: 5228, Port Designation: None 
+IP: 173.194.65.188, Destination Port: 5228, Port Designation: None 
+IP: 173.194.72.188, Destination Port: 443, Port Designation: HTTPS 
+IP: 174.129.195.166, Destination Port: 8443, Port Designation: None 
+IP: 174.129.209.146, Destination Port: 443, Port Designation: HTTPS 
+IP: 174.129.213.156, Destination Port: 8443, Port Designation: None 
+IP: 174.129.254.197, Destination Port: 443, Port Designation: HTTPS 
+IP: 184.72.236.164, Destination Port: 8443, Port Designation: None 
+IP: 184.73.179.203, Destination Port: 443, Port Designation: HTTPS 
+IP: 184.73.254.250, Destination Port: 8443, Port Designation: None 
+IP: 192.53.103.104, Destination Port: 123, Port Designation: NTP 
+IP: 204.236.217.159, Destination Port: 443, Port Designation: HTTPS 
+IP: 204.236.224.144, Destination Port: 443, Port Designation: HTTPS 
+IP: 216.58.214.110, Destination Port: 80, Port Designation: HTTP 
+IP: 216.58.214.110, Destination Port: 443, Port Designation: HTTPS 
+IP: 23.21.117.32, Destination Port: 8443, Port Designation: None 
+IP: 23.21.138.13, Destination Port: 8443, Port Designation: None 
+IP: 23.21.226.117, Destination Port: 8443, Port Designation: None 
+IP: 23.21.253.224, Destination Port: 443, Port Designation: HTTPS 
+IP: 23.21.60.181, Destination Port: 8443, Port Designation: None 
+IP: 23.23.111.129, Destination Port: 8443, Port Designation: None 
+IP: 23.23.236.208, Destination Port: 8443, Port Designation: None 
+IP: 23.23.244.163, Destination Port: 3475, Port Designation: None 
+IP: 23.23.244.247, Destination Port: 3475, Port Designation: None 
+IP: 23.23.97.224, Destination Port: 8443, Port Designation: None 
+IP: 239.255.255.250, Destination Port: 1900, Port Designation: SSDP 
+IP: 255.255.255.255, Destination Port: 67, Port Designation: DHCP 
+IP: 31.13.92.10, Destination Port: 443, Port Designation: HTTPS 
+IP: 50.16.203.253, Destination Port: 8443, Port Designation: None 
+IP: 50.17.195.105, Destination Port: 443, Port Designation: HTTPS 
+IP: 50.17.221.66, Destination Port: 8443, Port Designation: None 
+IP: 50.18.213.194, Destination Port: 443, Port Designation: HTTPS 
+IP: 50.19.119.163, Destination Port: 443, Port Designation: HTTPS 
+IP: 50.19.247.85, Destination Port: 3475, Port Designation: None 
+IP: 50.19.255.135, Destination Port: 8443, Port Designation: None 
+IP: 52.1.101.255, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.201.153.133, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.201.57.192, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.203.133.63, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.205.156.39, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.205.3.64, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.21.99.97, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.22.100.3, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.22.115.100, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.22.149.137, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.22.218.140, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.22.228.131, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.3.203.91, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.4.187.180, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.5.218.128, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.5.245.33, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.6.245.252, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.70.0.77, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.71.162.223, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.72.119.158, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.72.158.12, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.72.201.217, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.8.166.136, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.86.30.227, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.87.11.228, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.9.69.98, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.147.165.8, Destination Port: 3478, Port Designation: None 
+IP: 54.163.54.51, Destination Port: 3478, Port Designation: None 
+IP: 54.164.239.22, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.183.111.125, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.193.100.54, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.193.117.148, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.193.45.88, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.208.235.44, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.215.132.112, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.221.123.254, Destination Port: 3478, Port Designation: None 
+IP: 54.221.208.223, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.224.75.105, Destination Port: 3478, Port Designation: None 
+IP: 54.225.140.113, Destination Port: 8443, Port Designation: None 
+IP: 54.225.150.170, Destination Port: 8443, Port Designation: None 
+IP: 54.235.111.253, Destination Port: 8443, Port Designation: None 
+IP: 54.235.195.29, Destination Port: 3475, Port Designation: None 
+IP: 54.235.87.112, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.243.146.41, Destination Port: 8443, Port Designation: None 
+IP: 54.243.161.167, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.243.187.195, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.243.222.76, Destination Port: 8443, Port Designation: None 
+IP: 54.86.223.191, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.90.160.227, Destination Port: 3478, Port Designation: None 
+IP: 63.128.176.5, Destination Port: 7275, Port Designation: None 
+IP: 64.210.203.208, Destination Port: 7275, Port Designation: None 
+IP: 64.233.183.188, Destination Port: 5228, Port Designation: None 
+IP: 64.233.184.188, Destination Port: 5228, Port Designation: None 
+IP: 66.102.1.188, Destination Port: 5228, Port Designation: None 
+IP: 74.125.140.188, Destination Port: 5228, Port Designation: None 
+IP: 74.125.142.188, Destination Port: 5228, Port Designation: None 
+IP: 74.125.195.188, Destination Port: 5228, Port Designation: None 
+IP: 74.125.200.188, Destination Port: 443, Port Designation: HTTPS 
+IP: 74.125.25.188, Destination Port: 5228, Port Designation: None 
+IP: 74.125.71.188, Destination Port: 5228, Port Designation: None 
+IP: 75.101.153.17, Destination Port: 443, Port Designation: HTTPS 
+IP: 95.100.180.232, Destination Port: 443, Port Designation: HTTPS 
+
+DNS Dependencies: 

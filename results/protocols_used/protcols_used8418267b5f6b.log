@@ -1,0 +1,32 @@
+Destinations contacted by 84:18:26:7b:5f:6b: 
+255.255.255.255::78
+224.0.0.251::1100
+10.10.10.1::20
+224.0.0.1::39
+195.65.87.104::20
+195.65.87.72::839
+195.65.87.73::690
+195.65.87.71::1262
+
+Protocols and IP address for 84:18:26:7b:5f:6b: 
+IP: 10.10.10.1, Protocol: UDP
+IP: 195.65.87.104, Protocol: UDP
+IP: 195.65.87.71, Protocol: UDP
+IP: 195.65.87.72, Protocol: UDP
+IP: 195.65.87.73, Protocol: UDP
+IP: 224.0.0.1, Protocol: IGMP
+IP: 224.0.0.251, Protocol: IGMP
+IP: 224.0.0.251, Protocol: UDP
+IP: 255.255.255.255, Protocol: UDP
+
+UDP and TCP Protocols per IP: 
+IP: 10.10.10.1, Destination Port: 53, Port Designation: DNS 
+IP: 195.65.87.104, Destination Port: 80, Port Designation: HTTP 
+IP: 195.65.87.71, Destination Port: 80, Port Designation: HTTP 
+IP: 195.65.87.72, Destination Port: 80, Port Designation: HTTP 
+IP: 195.65.87.73, Destination Port: 80, Port Designation: HTTP 
+IP: 224.0.0.251, Destination Port: 5353, Port Designation: mDNS 
+IP: 255.255.255.255, Destination Port: 67, Port Designation: DHCP 
+
+DNS Dependencies: 
+Source: 10.10.10.114, Dependant: 10.10.10.114

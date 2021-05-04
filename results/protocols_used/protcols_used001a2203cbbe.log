@@ -1,0 +1,61 @@
+Destinations contacted by 00:1a:22:03:cb:be: 
+255.255.255.255::32
+224.0.0.1::37
+10.10.10.1::19
+81.14.202.21::25
+10.10.10.127::427
+10.10.10.30::26
+192.168.0.1::1
+
+Protocols and IP address for 00:1a:22:03:cb:be: 
+IP: 10.10.10.1, Protocol: UDP
+IP: 10.10.10.127, Protocol: TCP
+IP: 10.10.10.127, Protocol: UDP
+IP: 10.10.10.30, Protocol: TCP
+IP: 192.168.0.1, Protocol: UDP
+IP: 224.0.0.1, Protocol: IGMP
+IP: 255.255.255.255, Protocol: UDP
+IP: 81.14.202.21, Protocol: UDP
+
+UDP and TCP Protocols per IP: 
+IP: 10.10.10.1, Destination Port: 53, Port Designation: DNS 
+IP: 10.10.10.127, Destination Port: 23272, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 49961, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 49980, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50077, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50127, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50138, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50142, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50154, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50165, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50178, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50191, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50203, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50222, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50234, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50254, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50274, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50280, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50337, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50443, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50477, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50498, Port Designation: None 
+IP: 10.10.10.127, Destination Port: 50529, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 33957, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 34274, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 35262, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 41566, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 42104, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 43201, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 44854, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 45869, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 49127, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 52361, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 55095, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 58556, Port Designation: None 
+IP: 10.10.10.30, Destination Port: 58803, Port Designation: None 
+IP: 192.168.0.1, Destination Port: 53, Port Designation: DNS 
+IP: 255.255.255.255, Destination Port: 67, Port Designation: DHCP 
+IP: 81.14.202.21, Destination Port: 123, Port Designation: NTP 
+
+DNS Dependencies: 

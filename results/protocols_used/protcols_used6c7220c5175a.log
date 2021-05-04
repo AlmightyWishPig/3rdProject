@@ -1,0 +1,110 @@
+Destinations contacted by 6c:72:20:c5:17:5a: 
+255.255.255.255::54
+224.0.0.22::141
+224.0.0.251::1555
+10.10.10.1::342
+50.112.125.26::48
+54.186.215.173::11
+52.28.38.154::629
+54.86.11.193::12
+52.28.161.134::662
+52.25.174.177::59
+54.231.169.40::84
+52.58.68.165::573
+52.28.131.102::377
+52.26.98.232::58
+54.231.185.20::84
+54.244.232.183::72
+54.231.168.208::91
+52.1.151.223::10
+52.37.127.48::9
+54.231.184.196::168
+54.231.177.60::84
+54.231.169.16::170
+54.231.184.248::84
+54.231.169.24::85
+54.231.176.104::84
+54.231.168.244::84
+54.231.169.20::84
+54.231.169.44::84
+54.231.184.172::84
+54.231.184.168::80
+54.231.168.100::168
+54.231.176.216::85
+54.231.168.216::80
+
+Protocols and IP address for 6c:72:20:c5:17:5a: 
+IP: 10.10.10.1, Protocol: UDP
+IP: 224.0.0.22, Protocol: IGMP
+IP: 224.0.0.251, Protocol: UDP
+IP: 255.255.255.255, Protocol: UDP
+IP: 50.112.125.26, Protocol: TCP
+IP: 52.1.151.223, Protocol: UDP
+IP: 52.25.174.177, Protocol: TCP
+IP: 52.26.98.232, Protocol: TCP
+IP: 52.28.131.102, Protocol: TCP
+IP: 52.28.161.134, Protocol: TCP
+IP: 52.28.38.154, Protocol: TCP
+IP: 52.37.127.48, Protocol: UDP
+IP: 52.58.68.165, Protocol: TCP
+IP: 54.186.215.173, Protocol: UDP
+IP: 54.231.168.100, Protocol: TCP
+IP: 54.231.168.208, Protocol: TCP
+IP: 54.231.168.216, Protocol: TCP
+IP: 54.231.168.244, Protocol: TCP
+IP: 54.231.169.16, Protocol: TCP
+IP: 54.231.169.20, Protocol: TCP
+IP: 54.231.169.24, Protocol: TCP
+IP: 54.231.169.40, Protocol: TCP
+IP: 54.231.169.44, Protocol: TCP
+IP: 54.231.176.104, Protocol: TCP
+IP: 54.231.176.216, Protocol: TCP
+IP: 54.231.177.60, Protocol: TCP
+IP: 54.231.184.168, Protocol: TCP
+IP: 54.231.184.172, Protocol: TCP
+IP: 54.231.184.196, Protocol: TCP
+IP: 54.231.184.248, Protocol: TCP
+IP: 54.231.185.20, Protocol: TCP
+IP: 54.244.232.183, Protocol: TCP
+IP: 54.86.11.193, Protocol: UDP
+
+UDP and TCP Protocols per IP: 
+IP: 10.10.10.1, Destination Port: 53, Port Designation: DNS 
+IP: 224.0.0.251, Destination Port: 5353, Port Designation: mDNS 
+IP: 255.255.255.255, Destination Port: 67, Port Designation: DHCP 
+IP: 255.255.255.255, Destination Port: 68, Port Designation: DHCP 
+IP: 50.112.125.26, Destination Port: 80, Port Designation: HTTP 
+IP: 52.1.151.223, Destination Port: 123, Port Designation: NTP 
+IP: 52.25.174.177, Destination Port: 80, Port Designation: HTTP 
+IP: 52.26.98.232, Destination Port: 80, Port Designation: HTTP 
+IP: 52.28.131.102, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.28.161.134, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.28.38.154, Destination Port: 80, Port Designation: HTTP 
+IP: 52.28.38.154, Destination Port: 443, Port Designation: HTTPS 
+IP: 52.37.127.48, Destination Port: 123, Port Designation: NTP 
+IP: 52.58.68.165, Destination Port: 80, Port Designation: HTTP 
+IP: 52.58.68.165, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.186.215.173, Destination Port: 123, Port Designation: NTP 
+IP: 54.231.168.100, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.168.208, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.168.216, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.168.244, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.169.16, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.169.20, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.169.24, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.169.40, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.169.44, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.176.104, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.176.216, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.177.60, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.184.168, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.184.172, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.184.196, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.184.248, Destination Port: 80, Port Designation: HTTP 
+IP: 54.231.185.20, Destination Port: 80, Port Designation: HTTP 
+IP: 54.244.232.183, Destination Port: 80, Port Designation: HTTP 
+IP: 54.86.11.193, Destination Port: 123, Port Designation: NTP 
+
+DNS Dependencies: 
+Source: 10.10.10.11, Dependant: 10.10.10.11
+Source: 192.168.0.60, Dependant: 192.168.0.60

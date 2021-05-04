@@ -1,0 +1,80 @@
+Destinations contacted by 94:10:3e:42:80:69: 
+255.255.255.255::10
+129.132.2.21::5
+4.2.2.2::10
+130.149.17.8::10
+224.0.0.22::10
+239.255.255.250::150
+10.10.10.1::30
+50.16.203.253::107
+50.19.247.85::24
+54.166.254.31::6
+54.225.150.170::142
+54.235.111.253::90
+50.19.90.237::160
+23.21.60.181::158
+216.34.140.195::5
+23.23.236.208::105
+23.23.244.247::6
+54.163.33.123::6
+23.21.145.73::239
+107.21.214.151::190
+107.22.199.21::78
+23.23.97.224::142
+54.159.82.228::6
+54.80.113.88::8
+54.198.137.31::6
+
+Protocols and IP address for 94:10:3e:42:80:69: 
+IP: 10.10.10.1, Protocol: UDP
+IP: 107.21.214.151, Protocol: TCP
+IP: 107.22.199.21, Protocol: TCP
+IP: 129.132.2.21, Protocol: UDP
+IP: 130.149.17.8, Protocol: UDP
+IP: 216.34.140.195, Protocol: TCP
+IP: 224.0.0.22, Protocol: IGMP
+IP: 23.21.145.73, Protocol: TCP
+IP: 23.21.60.181, Protocol: TCP
+IP: 23.23.236.208, Protocol: TCP
+IP: 23.23.244.247, Protocol: TCP
+IP: 23.23.97.224, Protocol: TCP
+IP: 239.255.255.250, Protocol: UDP
+IP: 255.255.255.255, Protocol: UDP
+IP: 4.2.2.2, Protocol: ICMP
+IP: 50.16.203.253, Protocol: TCP
+IP: 50.19.247.85, Protocol: TCP
+IP: 50.19.90.237, Protocol: TCP
+IP: 54.159.82.228, Protocol: TCP
+IP: 54.163.33.123, Protocol: TCP
+IP: 54.166.254.31, Protocol: TCP
+IP: 54.198.137.31, Protocol: TCP
+IP: 54.225.150.170, Protocol: TCP
+IP: 54.235.111.253, Protocol: TCP
+IP: 54.80.113.88, Protocol: TCP
+
+UDP and TCP Protocols per IP: 
+IP: 10.10.10.1, Destination Port: 53, Port Designation: DNS 
+IP: 107.21.214.151, Destination Port: 8443, Port Designation: None 
+IP: 107.22.199.21, Destination Port: 8443, Port Designation: None 
+IP: 129.132.2.21, Destination Port: 123, Port Designation: NTP 
+IP: 130.149.17.8, Destination Port: 123, Port Designation: NTP 
+IP: 216.34.140.195, Destination Port: 7275, Port Designation: None 
+IP: 23.21.145.73, Destination Port: 443, Port Designation: HTTPS 
+IP: 23.21.60.181, Destination Port: 8443, Port Designation: None 
+IP: 23.23.236.208, Destination Port: 8443, Port Designation: None 
+IP: 23.23.244.247, Destination Port: 3475, Port Designation: None 
+IP: 23.23.97.224, Destination Port: 8443, Port Designation: None 
+IP: 239.255.255.250, Destination Port: 1900, Port Designation: SSDP 
+IP: 255.255.255.255, Destination Port: 67, Port Designation: DHCP 
+IP: 50.16.203.253, Destination Port: 8443, Port Designation: None 
+IP: 50.19.247.85, Destination Port: 3475, Port Designation: None 
+IP: 50.19.90.237, Destination Port: 443, Port Designation: HTTPS 
+IP: 54.159.82.228, Destination Port: 3478, Port Designation: None 
+IP: 54.163.33.123, Destination Port: 3478, Port Designation: None 
+IP: 54.166.254.31, Destination Port: 3478, Port Designation: None 
+IP: 54.198.137.31, Destination Port: 3478, Port Designation: None 
+IP: 54.225.150.170, Destination Port: 8443, Port Designation: None 
+IP: 54.235.111.253, Destination Port: 8443, Port Designation: None 
+IP: 54.80.113.88, Destination Port: 3478, Port Designation: None 
+
+DNS Dependencies: 

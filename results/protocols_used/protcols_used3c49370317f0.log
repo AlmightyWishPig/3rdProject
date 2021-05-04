@@ -1,0 +1,13 @@
+Destinations contacted by 3c:49:37:03:17:f0: 
+255.255.255.255::18
+192.168.1.13::88
+
+Protocols and IP address for 3c:49:37:03:17:f0: 
+IP: 192.168.1.13, Protocol: UDP
+IP: 255.255.255.255, Protocol: UDP
+
+UDP and TCP Protocols per IP: 
+IP: 192.168.1.13, Destination Port: 69, Port Designation: TFTP 
+IP: 255.255.255.255, Destination Port: 67, Port Designation: DHCP 
+
+DNS Dependencies: 

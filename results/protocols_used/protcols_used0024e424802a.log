@@ -1,0 +1,19 @@
+Destinations contacted by 00:24:e4:24:80:2a: 
+255.255.255.255::44
+10.10.10.1::21
+89.30.121.150::551
+0.0.0.0::12
+
+Protocols and IP address for 00:24:e4:24:80:2a: 
+IP: 0.0.0.0, Protocol: UDP
+IP: 10.10.10.1, Protocol: UDP
+IP: 255.255.255.255, Protocol: UDP
+IP: 89.30.121.150, Protocol: TCP
+
+UDP and TCP Protocols per IP: 
+IP: 0.0.0.0, Destination Port: 67, Port Designation: DHCP 
+IP: 10.10.10.1, Destination Port: 53, Port Designation: DNS 
+IP: 255.255.255.255, Destination Port: 67, Port Designation: DHCP 
+IP: 89.30.121.150, Destination Port: 80, Port Designation: HTTP 
+
+DNS Dependencies: 

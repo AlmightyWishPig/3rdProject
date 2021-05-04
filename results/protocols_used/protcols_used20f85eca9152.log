@@ -1,0 +1,19 @@
+Destinations contacted by 20:f8:5e:ca:91:52: 
+255.255.255.255::79
+10.10.10.1::20
+104.16.66.50::105
+104.16.65.50::196
+
+Protocols and IP address for 20:f8:5e:ca:91:52: 
+IP: 10.10.10.1, Protocol: UDP
+IP: 104.16.65.50, Protocol: TCP
+IP: 104.16.66.50, Protocol: TCP
+IP: 255.255.255.255, Protocol: UDP
+
+UDP and TCP Protocols per IP: 
+IP: 10.10.10.1, Destination Port: 53, Port Designation: DNS 
+IP: 104.16.65.50, Destination Port: 80, Port Designation: HTTP 
+IP: 104.16.66.50, Destination Port: 80, Port Designation: HTTP 
+IP: 255.255.255.255, Destination Port: 67, Port Designation: DHCP 
+
+DNS Dependencies: 
