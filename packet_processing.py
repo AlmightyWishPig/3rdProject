@@ -873,8 +873,8 @@ def protocol(folder):
         plotting: plot the result obtained
     """
     counter = Counter()
-    protocols = []
-    dependecies = []
+    protocols = [] # Destination, Protocol, Frequency
+    dependecies = [] # IP address, IP address
     sourcePorts = []
 
     # The MAC address for the device
@@ -917,8 +917,17 @@ def protocol(folder):
                 continue 
 
             counter[ip_pkt.dst] += 1
-            if [ip_pkt.dst,protocol_mapping_l4.get(ip_pkt.proto)] not in protocols:
-                protocols.append([ip_pkt.dst,protocol_mapping_l4.get(ip_pkt.proto)])
+##            if [ip_pkt.dst,protocol_mapping_l4.get(ip_pkt.proto)] not in protocols:
+##                protocols.append([ip_pkt.dst,protocol_mapping_l4.get(ip_pkt.proto)])
+
+            currentProtocol = protocol_mapping_l4.get(ip_pkt.proto)
+            
+            for item in protocol:
+                if item[0] == ip_pkt.dst and item[1] == currentProtocol:
+                    item[2] +=1
+                    break
+            else:
+                protocols.append([ip_pkt.dst,currentProtocol,1])
 
             # TCP and UPD Ports
             if TCP in ip_pkt:
@@ -937,7 +946,7 @@ def protocol(folder):
             if ether_pkt.haslayer(DNSRR):
                 a_count = ether_pkt[DNS].ancount
                 i = a_count + 4
-                while i > 0:
+                while i > 4:
                     try:
                         # Only get IP address
                         if re.match(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$",ether_pkt[0][i].rdata):
@@ -957,7 +966,7 @@ def protocol(folder):
 
     out_file.write("\nProtocols and IP address for {}: \n".format(mac_address))
     for item in protocols:
-        out_file.write("IP: {}, Protocol: {}\n".format(item[0], item[1]))
+        out_file.write("IP: {}, Protocol: {}::{}\n".format(item[0], item[1], item[2]))
 
     out_file.write("\nUDP and TCP Protocols per IP: \n")
     for item in sourcePorts:

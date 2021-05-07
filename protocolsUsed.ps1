@@ -1,25 +1,11 @@
-.\main.py -f D:\IoTDevice\3rdProject\data\001a2203cbbe --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\001a2205c42e --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\1c5f2baafd4e --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\3c49370317db --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\3c49370317f0 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\5ccf7f06d902 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\6c7220c5175a --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\20f85eca9152 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\0024e424802a --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\50c7bf00c703 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\50c7bf00fca3 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\74da38807a08 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\74da388079fc --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\908d78a8e143 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\908d78a93d6f --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\908d78dd0d60 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\94103e41c205 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\94103e340cb5 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\94103e428069 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\94103ecd3765 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\8418267b5f6b --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\0017882476ff --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\accf23623c6e --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\b0c5541c7185 --protocol
-.\main.py -f D:\IoTDevice\3rdProject\data\b0c554255b0e --protocol
+.\main.py -f D:\IoTDevice\data\001a2203cbbe --protocol
+
+.\main.py -f D:\IoTDevice\data\1c5f2baafd4e --protocol
+
+.\main.py -f D:\IoTDevice\data\50c7bf00fca3 --protocol
+
+.\main.py -f D:\IoTDevice\data\94103e428069 --protocol
+
+.\main.py -f D:\IoTDevice\data\0017882476ff --protocol
+
+.\main.py -f D:\IoTDevice\data\accf23623c6e --protocol
