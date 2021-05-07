@@ -1,80 +1,51 @@
-Destinations contacted by ac:cf:23:62:3c:6e: 
-255.255.255.255::196
-10.10.100.254::54
-10.10.10.1::62
-52.10.39.38::120
-211.233.84.186::1
-52.24.113.48::170
-78.47.148.174::1
-193.175.73.151::2
-129.70.132.33::1
-144.76.14.132::1
-213.136.0.252::1
-176.9.40.142::1
-46.165.212.204::1
-146.0.32.144::1
-46.4.19.10::1
-37.187.2.84::1
-185.19.196.101::1
-52.29.129.131::1
-178.63.61.67::1
-185.28.157.12::1
-91.207.136.50::1
-91.237.88.67::1
-131.188.3.220::1
-144.76.64.40::1
+IP, Protocol, Frequency
+10.10.10.1,UDP,62
+10.10.100.254,UDP,54
+129.70.132.33,UDP,1
+131.188.3.220,UDP,1
+144.76.14.132,UDP,1
+144.76.64.40,UDP,1
+146.0.32.144,UDP,1
+176.9.40.142,UDP,1
+178.63.61.67,UDP,1
+185.19.196.101,UDP,1
+185.28.157.12,UDP,1
+193.175.73.151,UDP,2
+211.233.84.186,UDP,1
+213.136.0.252,UDP,1
+255.255.255.255,UDP,196
+37.187.2.84,UDP,1
+46.165.212.204,UDP,1
+46.4.19.10,UDP,1
+52.10.39.38,TCP,120
+52.24.113.48,TCP,170
+52.29.129.131,UDP,1
+78.47.148.174,UDP,1
+91.207.136.50,UDP,1
+91.237.88.67,UDP,1
 
-Protocols and IP address for ac:cf:23:62:3c:6e: 
-IP: 10.10.10.1, Protocol: UDP
-IP: 10.10.100.254, Protocol: UDP
-IP: 129.70.132.33, Protocol: UDP
-IP: 131.188.3.220, Protocol: UDP
-IP: 144.76.14.132, Protocol: UDP
-IP: 144.76.64.40, Protocol: UDP
-IP: 146.0.32.144, Protocol: UDP
-IP: 176.9.40.142, Protocol: UDP
-IP: 178.63.61.67, Protocol: UDP
-IP: 185.19.196.101, Protocol: UDP
-IP: 185.28.157.12, Protocol: UDP
-IP: 193.175.73.151, Protocol: UDP
-IP: 211.233.84.186, Protocol: UDP
-IP: 213.136.0.252, Protocol: UDP
-IP: 255.255.255.255, Protocol: UDP
-IP: 37.187.2.84, Protocol: UDP
-IP: 46.165.212.204, Protocol: UDP
-IP: 46.4.19.10, Protocol: UDP
-IP: 52.10.39.38, Protocol: TCP
-IP: 52.24.113.48, Protocol: TCP
-IP: 52.29.129.131, Protocol: UDP
-IP: 78.47.148.174, Protocol: UDP
-IP: 91.207.136.50, Protocol: UDP
-IP: 91.237.88.67, Protocol: UDP
-
-UDP and TCP Protocols per IP: 
-IP: 10.10.10.1, Destination Port: 53, Port Designation: DNS 
-IP: 10.10.100.254, Destination Port: 123, Port Designation: NTP 
-IP: 129.70.132.33, Destination Port: 123, Port Designation: NTP 
-IP: 131.188.3.220, Destination Port: 123, Port Designation: NTP 
-IP: 144.76.14.132, Destination Port: 123, Port Designation: NTP 
-IP: 144.76.64.40, Destination Port: 123, Port Designation: NTP 
-IP: 146.0.32.144, Destination Port: 123, Port Designation: NTP 
-IP: 176.9.40.142, Destination Port: 123, Port Designation: NTP 
-IP: 178.63.61.67, Destination Port: 123, Port Designation: NTP 
-IP: 185.19.196.101, Destination Port: 123, Port Designation: NTP 
-IP: 185.28.157.12, Destination Port: 123, Port Designation: NTP 
-IP: 193.175.73.151, Destination Port: 123, Port Designation: NTP 
-IP: 211.233.84.186, Destination Port: 123, Port Designation: NTP 
-IP: 213.136.0.252, Destination Port: 123, Port Designation: NTP 
-IP: 255.255.255.255, Destination Port: 67, Port Designation: DHCP 
-IP: 255.255.255.255, Destination Port: 49999, Port Designation: None 
-IP: 37.187.2.84, Destination Port: 123, Port Designation: NTP 
-IP: 46.165.212.204, Destination Port: 123, Port Designation: NTP 
-IP: 46.4.19.10, Destination Port: 123, Port Designation: NTP 
-IP: 52.10.39.38, Destination Port: 7531, Port Designation: None 
-IP: 52.24.113.48, Destination Port: 7533, Port Designation: None 
-IP: 52.29.129.131, Destination Port: 123, Port Designation: NTP 
-IP: 78.47.148.174, Destination Port: 123, Port Designation: NTP 
-IP: 91.207.136.50, Destination Port: 123, Port Designation: NTP 
-IP: 91.237.88.67, Destination Port: 123, Port Designation: NTP 
-
-DNS Dependencies: 
+IP address, Port Number, Port Designation, Frequency: 
+10.10.10.1,53,DNS,62 
+10.10.100.254,123,NTP,54 
+129.70.132.33,123,NTP,1 
+131.188.3.220,123,NTP,1 
+144.76.14.132,123,NTP,1 
+144.76.64.40,123,NTP,1 
+146.0.32.144,123,NTP,1 
+176.9.40.142,123,NTP,1 
+178.63.61.67,123,NTP,1 
+185.19.196.101,123,NTP,1 
+185.28.157.12,123,NTP,1 
+193.175.73.151,123,NTP,2 
+211.233.84.186,123,NTP,1 
+213.136.0.252,123,NTP,1 
+255.255.255.255,67,DHCP,196 
+37.187.2.84,123,NTP,1 
+46.165.212.204,123,NTP,1 
+46.4.19.10,123,NTP,1 
+52.10.39.38,7531,None,120 
+52.24.113.48,7533,None,170 
+52.29.129.131,123,NTP,1 
+78.47.148.174,123,NTP,1 
+91.207.136.50,123,NTP,1 
+91.237.88.67,123,NTP,1 

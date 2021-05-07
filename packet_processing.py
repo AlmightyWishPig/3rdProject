@@ -864,7 +864,7 @@ def bytes_rate_final_fixed_window(folder, mac_address, window=None):
     log_file.close()
     print("done.")
 
-def protocol(folder):
+def protocols_used(folder):
     """
     This method provides an overview about the destinations contacted by a devices with a specific ip address. 
     Particularly, the methods return the number of packets send to all the destions
@@ -872,9 +872,8 @@ def protocol(folder):
         folder: folder containing pcap files
         plotting: plot the result obtained
     """
-    counter = Counter()
     protocols = [] # Destination, Protocol, Frequency
-    dependecies = [] # IP address, IP address
+##    dependecies = [] # IP address, IP address
     sourcePorts = []
 
     # The MAC address for the device
@@ -884,7 +883,7 @@ def protocol(folder):
         mac_address += old_mac_address[i * 2] + old_mac_address[i * 2 + 1] + ":"
     mac_address += old_mac_address[-2] + old_mac_address[-1]
     
-    output_file_name = "results/protocols_used/protcols_used" + old_mac_address + ".log"
+    output_file_name = "results/protocols_used/protcols_used" + old_mac_address + ".csv"
     out_file = open(output_file_name,'w')
 
     # Ordering Files in the directory (useful for window purposes)
@@ -916,65 +915,67 @@ def protocol(folder):
             if ether_pkt.src != mac_address:
                 continue 
 
-            counter[ip_pkt.dst] += 1
 ##            if [ip_pkt.dst,protocol_mapping_l4.get(ip_pkt.proto)] not in protocols:
 ##                protocols.append([ip_pkt.dst,protocol_mapping_l4.get(ip_pkt.proto)])
 
             currentProtocol = protocol_mapping_l4.get(ip_pkt.proto)
             
-            for item in protocol:
+            for item in protocols:
                 if item[0] == ip_pkt.dst and item[1] == currentProtocol:
                     item[2] +=1
                     break
             else:
                 protocols.append([ip_pkt.dst,currentProtocol,1])
 
+            portFlag = False
             # TCP and UPD Ports
             if TCP in ip_pkt:
                 sport = ip_pkt[TCP].sport
                 dport = ip_pkt[TCP].dport
-                if [ip_pkt.dst,dport] not in sourcePorts:
-                    sourcePorts.append([ip_pkt.dst,dport])
-
+                portFlag = True
             elif UDP in ip_pkt:
                 sport = ip_pkt[UDP].sport
                 dport = ip_pkt[UDP].dport
-                if [ip_pkt.dst,dport] not in sourcePorts:
-                    sourcePorts.append([ip_pkt.dst,dport])
+                portFlag = True
 
-            # DNS stuff
-            if ether_pkt.haslayer(DNSRR):
-                a_count = ether_pkt[DNS].ancount
-                i = a_count + 4
-                while i > 4:
-                    try:
-                        # Only get IP address
-                        if re.match(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$",ether_pkt[0][i].rdata):
-                            if [ether_pkt[IP].src,ether_pkt[0][i].rdata] not in dependecies:
-                                dependecies.append([ether_pkt[IP].src,ether_pkt[0][i].rdata])
-                        i -= 1
-                    except:
-                        i -= 1
+            if portFlag:
+                for item in sourcePorts:
+                    if item[0] == ip_pkt.dst:
+                        item[2] += 1
+                        break
+                else:
+                    sourcePorts.append([ip_pkt.dst,dport,1])
+
+# This isn't very helpful. Due to the way DNS requests are resolved in the router first, all DNS requests are to the router or a local IP 
+##            # DNS stuff
+##            if ether_pkt.haslayer(DNSRR):
+##                a_count = ether_pkt[DNS].ancount
+##                i = a_count + 4
+##                while i > 4:
+##                    try:
+##                        # Only get IP address
+##                        if re.match(r"^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$",ether_pkt[0][i].rdata):
+##                            if [ether_pkt[IP].src,ether_pkt[0][i].rdata] not in dependecies:
+##                                dependecies.append([ether_pkt[IP].src,ether_pkt[0][i].rdata])
+##                        i -= 1
+##                    except:
+##                        i -= 1
 
     protocols.sort()
-    dependecies.sort()
+##    dependecies.sort()
     sourcePorts.sort()
-    
-    out_file.write("Destinations contacted by {}: \n".format(mac_address))
-    for key in counter.keys():
-        out_file.write("{}::{}\n".format(key, counter[key]))
 
-    out_file.write("\nProtocols and IP address for {}: \n".format(mac_address))
+    out_file.write("IP, Protocol, Frequency\n".format(mac_address))
     for item in protocols:
-        out_file.write("IP: {}, Protocol: {}::{}\n".format(item[0], item[1], item[2]))
+        out_file.write("{},{},{}\n".format(item[0], item[1], item[2]))
 
-    out_file.write("\nUDP and TCP Protocols per IP: \n")
+    out_file.write("\nIP address, Port Number, Port Designation, Frequency: \n")
     for item in sourcePorts:
-        out_file.write("IP: {}, Destination Port: {}, Port Designation: {} \n".format(item[0], item[1], port_mapping_1.get(item[1])))
+        out_file.write("{},{},{},{}\n".format(item[0], item[1], port_mapping_1.get(item[1]), item[2]))
 
-    out_file.write("\nDNS Dependencies: \n")
-    for item in dependecies:
-        out_file.write("Source: {}, Dependant: {}\n".format(item[0], item[1]))
+##    out_file.write("\nDNS Dependencies: \n")
+##    for item in dependecies:
+##        out_file.write("Source: {}, Dependant: {}\n".format(item[0], item[1]))
     
     out_file.close()
 

@@ -55,7 +55,7 @@ def main(argv):
         packet_processing.destinations_contacted(args.folder, args.src_address)
 
     if args.protocol:
-        packet_processing.queryMAP(args.folder)
+        packet_processing.protocols_used(args.folder)
 
     if args.times:
         packet_processing.correlationCSV(args.folder)
