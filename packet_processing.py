@@ -940,7 +940,7 @@ def protocols_used(folder):
 
             if portFlag:
                 for item in sourcePorts:
-                    if item[0] == ip_pkt.dst:
+                    if item[0] == ip_pkt.dst and item[1] == dport:
                         item[2] += 1
                         break
                 else:
